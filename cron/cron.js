@@ -1,7 +1,7 @@
 const cron = require("cron");
 const https = require("https");
 
-const URL = "https://product-trust.onrender.com";
+const URL = "https://product-trust-api-backend.onrender.com";
 
 const job = new cron.CronJob("*/14 * * * *", function () {
 	https
